@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.coolappz.FUNDAHOG" version="0.0.1">
     <name>FUNDAHOG</name>
     <description>
         Aplicación de FundaHog
     </description>
 
-    <icon src="www/img/fundahog_icon.png" />
+    <icon src="img/fundahog_icon.png" />
     <plugin name="cordova-plugin-whitelist" version="1"/>
     <access origin="*"/>
-
+    <preference name="permissions" value="none"/>
+    
     <platform name="android">
         <allow-intent href="market:*"/>
     </platform>
