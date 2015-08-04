@@ -1,5 +1,5 @@
 function show(){
-    var sidebar = document.getElementById('barraLateral');
+    var sidebar = document.getElementById('lateral');
     
     if (sidebar.style.display == "none"){
         sidebar.style.display = "block";
