@@ -9,7 +9,7 @@
     <plugin name="cordova-plugin-whitelist" version="1"/>
     <access origin="*"/>
     <preference name="permissions" value="none"/>
-    
+    <preference name="phonegap-version" value="cli-5.2.0" />
     <platform name="android">
         <allow-intent href="market:*"/>
     </platform>
